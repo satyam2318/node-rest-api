@@ -1,4 +1,4 @@
-npm {
+{
   "name": "node-rest-api",
   "version": "9.0.3",
   "description": "Node.js express.js MongoDB JWT REST API - This is a basic API REST written on JavaScript using async/await. Great for building a starter web API for your front-end (Android, iOS, Vue, react, angular, or anything that can consume an API)",
@@ -49,8 +49,8 @@ npm {
   },
   "husky": {
     "hooks": {
-      "pre-commit": "",//"lint-staged && npm run remark",
-      "pre-push": ""//"npm run test"
+      "pre-commit": "",
+      "pre-push": ""
     }
   },
   "lint-staged": {
