@@ -51,7 +51,7 @@ app.use(helmet());
 app.use(express.static('public'));
 app.set('views', path.join(__dirname,'views'));
 app.set('view engine', 'html');
-//app.use(require('./app/routes'));
+app.use(require('./app/routes'));
 app.listen(app.get('port'));
 
 initMongo();
