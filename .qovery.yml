@@ -1,0 +1,15 @@
+---
+application:
+  name: "node-rest-api"
+  project: "node-crud"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "nodeAPI"
+  version: "4.4"
+routers:
+- name: "main-node-rest-api"
+  routes:
+  - application_name: "node-rest-api"
+    paths:
+    - "/*"
